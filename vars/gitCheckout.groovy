@@ -1,3 +1,3 @@
-def call() {
-    git 'https://github.com/yourrepo.git'
+def call(String repoUrl, String branch) {
+    git branch: branch, url: repoUrl
 }
